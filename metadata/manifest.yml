@@ -1,0 +1,17 @@
+---
+Name: maven
+Cartridge-Short-Name: MAVEN
+Architecture: noarch
+Display-Name: Apache Maven 3.2.1
+Description: Adds a new version of maven
+Version: '3.2.1'
+Cartridge-Version: 0.0.1
+Cartridge-Vendor: andershedstrom
+License: BSD
+Categories:
+- embedded
+Provides:
+- maven
+Scaling:
+  Min: 1
+  Max: 1

@@ -1,0 +1,6 @@
+#!/bin/bash -e
+
+mkdir $OPENSHIFT_DATA_DIR/maven && cd $_
+wget http://apache.mirrors.spacedump.net/maven/maven-3/3.2.1/binaries/apache-maven-3.2.1-bin.tar.gz
+tar -zxf apache-maven-3.2.1-bin.tar.gz
+rm apache-maven-3.2.1-bin.tar.gz
